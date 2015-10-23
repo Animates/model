@@ -13,6 +13,7 @@ module.exports = function (grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 		meta: {
 			output : 'build/output',
+			distFolder : 'dist',
 			packageEntryName : 'model',
 			packageOutputFileName : 'model.js',
 			packageEntryPoint : 'src/model.js',
@@ -210,7 +211,7 @@ module.exports = function (grunt) {
 			grunt.config.requires('meta.packageOutputFileName');
 			grunt.config.requires('meta.packageEntryPoint');
 
-			var output = grunt.config.get('meta.output'),
+			var output = grunt.config.get('meta.distFolder'),
 				packageEntryName = grunt.config.get('meta.packageEntryName'),
 				packageOutputFileName = grunt.config.get('meta.packageOutputFileName'),
 				packageEntryPoint = grunt.config.get('meta.packageEntryPoint'),
