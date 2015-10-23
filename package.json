@@ -12,7 +12,7 @@
     }
   },
   "dependencies": {
-    "animates-common": "0.0.1"
+    "animates-common": "animates/common"
   },
   "devDependencies": {
     "blanket": "~1.1.5",
