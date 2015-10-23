@@ -1,0 +1,28 @@
+{
+  "name": "animates-model",
+  "authors": [
+    "Nicolas Bello Camilletti",
+    "Pablo Biasotti"
+  ],
+  "description": "Model classes for Animates",
+  "keywords": [
+    "animates",
+    "model"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "build",
+    "Gruntfile.js",
+    "node_modules",
+    "src",
+    "test"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/Animates/model/",
+  "main": [
+    "dist/model.js"
+  ],
+  "moduleType": []
+}
